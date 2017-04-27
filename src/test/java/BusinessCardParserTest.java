@@ -21,6 +21,11 @@ public class BusinessCardParserTest {
         Assert.assertEquals("Mike Smith", info.getName());
         Assert.assertEquals("4105551234", info.getPhoneNumber());
         Assert.assertEquals("msmith@asymmetrik.com", info.getEmailAddress());
+
+        System.out.println();
+        System.out.println(info.getName());
+        System.out.println(info.getPhoneNumber());
+        System.out.println(info.getEmailAddress());
     }
 
     @Test
@@ -41,6 +46,11 @@ public class BusinessCardParserTest {
         Assert.assertEquals("Lisa Haung", info.getName());
         Assert.assertEquals("4105551234", info.getPhoneNumber());
         Assert.assertEquals("lisa.haung@foobartech.com", info.getEmailAddress());
+
+        System.out.println();
+        System.out.println(info.getName());
+        System.out.println(info.getPhoneNumber());
+        System.out.println(info.getEmailAddress());
     }
 
     @Test
@@ -63,5 +73,10 @@ public class BusinessCardParserTest {
         Assert.assertEquals("Arthur Wilson", info.getName());
         Assert.assertEquals("17035551259", info.getPhoneNumber());
         Assert.assertEquals("awilson@abctech.com", info.getEmailAddress());
+
+        System.out.println();
+        System.out.println(info.getName());
+        System.out.println(info.getPhoneNumber());
+        System.out.println(info.getEmailAddress());
     }
 }
